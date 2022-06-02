@@ -30,44 +30,46 @@ body {
   overflow: hidden;
   color: var(--color-light);
 }
+a{
+  text-decoration: none;
+}
 
-
-nav {
+#navbar{
+  background: #10d54e;
+  color: #fff;
+  overflow:auto;
   position: fixed;
   width: 100%;
   z-index: 1;
-}
 
-.container {
-  width:86%;
-  margin:0 auto;
 }
-
-nav .container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  padding: 1.5rem;
+#navbar a{
+  color: white;
+  text-decoration: none;
 }
-
-nav .container img{
-  width: 4.2rem;
+#navbar img{
+  float: left;
+  width: 10rem;
 }
-nav .container ul{
-  display: flex;
-  gap: 4rem;
+#navbar ul{
+  float: right;
+  padding: 20px;
 }
-
-nav.container ul li{
+#navbar ul li{
+  float: left;
   list-style: none;
 }
 
-a{
-  color: beige;
-  font-size: 0.9rem;
-  text-decoration: none;
+#navbar ul li a{
+  padding: 20px;
+  display: block;
+  text-align: center;
 }
+#navbar ul li a:hover{
+  color: red;
+}
+
+
 
 section{
   display: grid;
@@ -90,4 +92,23 @@ section .container h3{
   margin-bottom: 3rem;
   font-family: 'Lobster', cursive;
   
+}
+
+section .container p{
+  margin-bottom: 40px;
+}
+.container .btn{
+  display: inline-block;
+  background:#10d54e;
+  color:#fff;
+  padding: 10px 20px;
+  border-radius: 50px;
+  margin: 20px;
+  cursor: pointer;
+  border:none;
+  font-size: 16px;
+}
+
+.container .btn:hover{
+  background: red;
 }
