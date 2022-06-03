@@ -1,0 +1,45 @@
+.container{
+  min-width: 1320px;
+}
+
+section{
+  overflow: hidden;
+}
+
+.section-bg{
+  background: palevioletred ;
+}
+
+.section-header{
+  font-size: 36px;
+  color: rgb(214, 142, 48);
+  text-align: center;
+  font-weight: 700;
+  position: relative;
+  font-family: 'poppins',sans-serif;
+}
+
+.section-header p{
+  text-align: center;
+  margin: auto;
+  font-size: 15px;
+  padding-bottom: 60px;
+  color: rgb(17, 0, 255);
+  width: 50%;
+}
+
+#services{
+  padding: 60px 0 40px 0;
+
+}
+#services .box{
+padding: 30px;
+position: relative;
+overflow: hidden;
+border-radius: 10px;
+margin: 0.10px 40px 10px;
+background: rebeccapurple;
+box-shadow: 0 10px 29px 0 brown(68,88,144,0.1);
+transition: all 0.3s ease-in-out;
+text-align: center;
+}
